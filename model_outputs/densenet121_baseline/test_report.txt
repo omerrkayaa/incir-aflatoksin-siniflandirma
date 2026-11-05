@@ -1,0 +1,20 @@
+DenseNet121 Baseline Test Report
+================================
+
+Classes: ['healthy', 'unhealthy']
+Best val accuracy: 0.9851
+Test accuracy: 0.9848
+Training time minutes: 0.76
+
+              precision    recall  f1-score   support
+
+     healthy     1.0000    0.9826    0.9912       172
+   unhealthy     0.8966    1.0000    0.9455        26
+
+    accuracy                         0.9848       198
+   macro avg     0.9483    0.9913    0.9683       198
+weighted avg     0.9864    0.9848    0.9852       198
+
+Confusion matrix:
+[[169   3]
+ [  0  26]]

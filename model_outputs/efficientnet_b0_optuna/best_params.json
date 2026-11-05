@@ -1,0 +1,55 @@
+{
+    "best_params": {
+        "batch_size": 32,
+        "lr": 0.0001329291894316216,
+        "weight_decay": 0.0007114476009343421
+    },
+    "best_trial": {
+        "trial_number": 1,
+        "lr": 0.0001329291894316216,
+        "weight_decay": 0.0007114476009343421,
+        "batch_size": 32,
+        "best_val_acc": 0.9950248756218906,
+        "best_val_loss": 0.013281860842893076,
+        "elapsed_minutes": 0.5855386972427368,
+        "history": [
+            {
+                "epoch": 1,
+                "train_loss": 0.1401968142022792,
+                "train_acc": 0.9667936853565596,
+                "val_loss": 0.048995267989030526,
+                "val_acc": 0.9800995024875622
+            },
+            {
+                "epoch": 2,
+                "train_loss": 0.025482611029794683,
+                "train_acc": 0.9923788786064235,
+                "val_loss": 0.03760518289324063,
+                "val_acc": 0.9850746268656716
+            },
+            {
+                "epoch": 3,
+                "train_loss": 0.01759725388354446,
+                "train_acc": 0.9961894393032118,
+                "val_loss": 0.013281860842893076,
+                "val_acc": 0.9950248756218906
+            }
+        ],
+        "model_path": "model_outputs/efficientnet_b0_optuna/trial_01_best_model.pth"
+    },
+    "study_best_params": {
+        "lr": 0.0001329291894316216,
+        "weight_decay": 0.0007114476009343421,
+        "batch_size": 32
+    },
+    "search_space": {
+        "learning_rate": "1e-5 - 1e-2",
+        "weight_decay": "1e-6 - 1e-3",
+        "batch_size": [
+            32,
+            64,
+            128
+        ],
+        "optimizer": "Adam"
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "best_params": {
+        "batch_size": 32,
+        "lr": 0.0019205212018125557,
+        "weight_decay": 0.0002281355236625612
+    },
+    "best_trial": {
+        "trial_number": 3,
+        "lr": 0.0019205212018125557,
+        "weight_decay": 0.0002281355236625612,
+        "batch_size": 32,
+        "best_val_acc": 0.9900497512437811,
+        "best_val_loss": 0.029277709104231935,
+        "elapsed_minutes": 0.5114869554837544,
+        "history": [
+            {
+                "epoch": 1,
+                "train_loss": 0.09198651921610405,
+                "train_acc": 0.965160587915079,
+                "val_loss": 0.1787068821021833,
+                "val_acc": 0.9651741293532339
+            },
+            {
+                "epoch": 2,
+                "train_loss": 0.04723526076142456,
+                "train_acc": 0.9863908546543277,
+                "val_loss": 0.4807218821587236,
+                "val_acc": 0.8706467661691543
+            },
+            {
+                "epoch": 3,
+                "train_loss": 0.03877079611817536,
+                "train_acc": 0.9858464888405009,
+                "val_loss": 0.029277709104231935,
+                "val_acc": 0.9900497512437811
+            }
+        ],
+        "model_path": "model_outputs/efficientnet_b0_pso/trial_03_best_model.pth",
+        "iteration": 1,
+        "particle": 3
+    },
+    "search_space": {
+        "learning_rate": "1e-5 - 1e-2",
+        "weight_decay": "1e-6 - 1e-3",
+        "batch_size": [
+            32,
+            64,
+            128
+        ],
+        "optimizer": "Adam"
+    },
+    "method": {
+        "name": "Particle Swarm Optimization",
+        "particles": 4,
+        "iterations": 2
+    }
+}

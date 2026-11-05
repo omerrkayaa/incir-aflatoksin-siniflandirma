@@ -1,0 +1,29 @@
+# Görüntü verisi: paylaşım izni yok, depoya girmez
+Healty/
+mor sağlıklı/
+aflatoksin son/
+augmented/
+dataset_split/
+dataset_processed/
+removed_bad_images/
+review_sheets/
+review_processed_sheets/
+*.jpg
+*.jpeg
+
+# Grad-CAM çıktıları veri setindeki fotoğrafları içerir
+model_outputs/explainable_ai_gradcam/
+
+# Model ağırlıkları (büyük dosyalar)
+*.pth
+
+# Görüntü dosya adlarını içeren ara raporlar
+review_notes.csv
+removed_images_report.csv
+preprocess_report.csv
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

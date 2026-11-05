@@ -1,0 +1,20 @@
+ConvNeXt Tiny Baseline Test Report
+==================================
+
+Classes: ['healthy', 'unhealthy']
+Best val accuracy: 1.0000
+Test accuracy: 0.9899
+Training time minutes: 1.22
+
+              precision    recall  f1-score   support
+
+     healthy     0.9885    1.0000    0.9942       172
+   unhealthy     1.0000    0.9231    0.9600        26
+
+    accuracy                         0.9899       198
+   macro avg     0.9943    0.9615    0.9771       198
+weighted avg     0.9900    0.9899    0.9897       198
+
+Confusion matrix:
+[[172   0]
+ [  2  24]]

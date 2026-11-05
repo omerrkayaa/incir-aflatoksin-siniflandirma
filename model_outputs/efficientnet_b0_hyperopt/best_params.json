@@ -1,0 +1,52 @@
+{
+    "best_params": {
+        "batch_size": 64,
+        "lr": 0.0007250316961973837,
+        "weight_decay": 0.00027603631617338317
+    },
+    "best_trial": {
+        "loss": 0.00497512437810943,
+        "status": "ok",
+        "trial_number": 1,
+        "lr": 0.0007250316961973837,
+        "weight_decay": 0.00027603631617338317,
+        "batch_size": 64,
+        "best_val_acc": 0.9950248756218906,
+        "best_val_loss": 0.014382153007535458,
+        "elapsed_minutes": 0.8381506482760112,
+        "history": [
+            {
+                "epoch": 1,
+                "train_loss": 0.07704844094718319,
+                "train_acc": 0.974959172563963,
+                "val_loss": 0.02616280578632853,
+                "val_acc": 0.9850746268656716
+            },
+            {
+                "epoch": 2,
+                "train_loss": 0.009702003809380577,
+                "train_acc": 0.9967338051170387,
+                "val_loss": 0.413754775089484,
+                "val_acc": 0.900497512437811
+            },
+            {
+                "epoch": 3,
+                "train_loss": 0.011932948683948744,
+                "train_acc": 0.9972781709308656,
+                "val_loss": 0.014382153007535458,
+                "val_acc": 0.9950248756218906
+            }
+        ],
+        "model_path": "model_outputs/efficientnet_b0_hyperopt/trial_01_best_model.pth"
+    },
+    "search_space": {
+        "learning_rate": "1e-5 - 1e-2",
+        "weight_decay": "1e-6 - 1e-3",
+        "batch_size": [
+            32,
+            64,
+            128
+        ],
+        "optimizer": "Adam"
+    }
+}

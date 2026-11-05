@@ -1,0 +1,19 @@
+ResNet18 Baseline Test Report
+=============================
+
+Classes: ['healthy', 'unhealthy']
+Best val accuracy: 0.9900
+Test accuracy: 0.9899
+
+              precision    recall  f1-score   support
+
+     healthy     1.0000    0.9884    0.9942       172
+   unhealthy     0.9286    1.0000    0.9630        26
+
+    accuracy                         0.9899       198
+   macro avg     0.9643    0.9942    0.9786       198
+weighted avg     0.9906    0.9899    0.9901       198
+
+Confusion matrix:
+[[170   2]
+ [  0  26]]

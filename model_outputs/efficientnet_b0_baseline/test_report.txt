@@ -1,0 +1,19 @@
+EfficientNet-B0 Baseline Test Report
+====================================
+
+Classes: ['healthy', 'unhealthy']
+Best val accuracy: 0.9900
+Test accuracy: 0.9949
+
+              precision    recall  f1-score   support
+
+     healthy     1.0000    0.9942    0.9971       172
+   unhealthy     0.9630    1.0000    0.9811        26
+
+    accuracy                         0.9949       198
+   macro avg     0.9815    0.9971    0.9891       198
+weighted avg     0.9951    0.9949    0.9950       198
+
+Confusion matrix:
+[[171   1]
+ [  0  26]]

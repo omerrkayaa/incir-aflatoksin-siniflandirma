@@ -1,0 +1,18 @@
+EfficientNet-B0 Optuna Test Report
+==================================
+
+Best params: {'batch_size': 32, 'lr': 0.0001329291894316216, 'weight_decay': 0.0007114476009343421}
+Test accuracy: 1.0000
+
+              precision    recall  f1-score   support
+
+     healthy     1.0000    1.0000    1.0000       172
+   unhealthy     1.0000    1.0000    1.0000        26
+
+    accuracy                         1.0000       198
+   macro avg     1.0000    1.0000    1.0000       198
+weighted avg     1.0000    1.0000    1.0000       198
+
+Confusion matrix:
+[[172   0]
+ [  0  26]]

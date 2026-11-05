@@ -1,0 +1,18 @@
+EfficientNet-B0 PSO Metaheuristic Test Report
+============================================
+
+Best params: {'batch_size': 32, 'lr': 0.0019205212018125557, 'weight_decay': 0.0002281355236625612}
+Test accuracy: 0.9949
+
+              precision    recall  f1-score   support
+
+     healthy     0.9942    1.0000    0.9971       172
+   unhealthy     1.0000    0.9615    0.9804        26
+
+    accuracy                         0.9949       198
+   macro avg     0.9971    0.9808    0.9887       198
+weighted avg     0.9950    0.9949    0.9949       198
+
+Confusion matrix:
+[[172   0]
+ [  1  25]]
